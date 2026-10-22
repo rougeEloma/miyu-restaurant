@@ -1,0 +1,13 @@
+{
+  "name": "miyu-restaurant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site MIYU Restaurant & Lounge Bar (Pointe-Noire) avec réservation de table par WhatsApp",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build:page": "python3 -I tools/build.py"
+  }
+}
